@@ -1,0 +1,17 @@
+{
+  "uuid": "78eb4b89-51a6-4e8e-ba52-1898e0984a19",
+  "shortName": "perfectnap",
+  "longName": "perfectnap",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
