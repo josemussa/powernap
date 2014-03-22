@@ -199,6 +199,7 @@ void timer_deinit(void) {
 
 void timer_init(void) {
 	window_timer = window_create();
+	window_set_background_color(window_timer, GColorBlack);
 	text_layer = text_layer_create(GRect(0, 0, 144, 154));
 	nap_counter_ready = false;
 	init_counter_ready = true;
