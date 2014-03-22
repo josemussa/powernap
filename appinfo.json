@@ -12,6 +12,33 @@
     "dummy": 0
   },
   "resources": {
-    "media": []
+    "media": [
+    {
+        "menuIcon": true,
+        "type": "png",
+        "name": "IMAGE_MENU_ICON",
+        "file": "icon.png"
+    },
+    {
+        "type": "png",
+        "name": "IMAGE_1",
+        "file": "1.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_3",
+        "file": "2.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_4",
+        "file": "3.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_2",
+        "file": "4.png"
+      }
+      ]
   }
 }
