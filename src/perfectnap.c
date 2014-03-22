@@ -45,12 +45,12 @@ static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuI
       switch (cell_index->row) {
         case 0:
           // This is a basic menu item with a title and subtitle
-          menu_cell_basic_draw(ctx, cell_layer, "10 - 20 minutes", "Boost your alertness", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "15 minutes", "Boost your alertness", NULL);
           break;
 
         case 1:
           // This is a basic menu item with a title and subtitle
-          menu_cell_basic_draw(ctx, cell_layer, "~30 minutes", "Restore wakefulness", NULL);
+          menu_cell_basic_draw(ctx, cell_layer, "30 minutes", "Restore wakefulness", NULL);
           break;
 
         case 2:
@@ -70,16 +70,24 @@ void menu_select_callback(MenuLayer *menu_layer, MenuIndex *cell_index, void *da
   switch (cell_index->row) {
     // This is the menu item with the cycling icon
     case 0:
+      nap_time_selection = 0;
       timer_init();
+      
       break;
     case 1:
+      nap_time_selection = 1;
       timer_init();
+      
       break;
     case 2:
+      nap_time_selection = 2;
       timer_init();
+      
       break;
     case 3:
+      nap_time_selection = 3;
       timer_init();
+      
       break;
   }
 
